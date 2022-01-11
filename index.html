@@ -1,737 +1,129 @@
-<html>
-
+<!DOCTYPE html>
+<html  >
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:"Century Gothic";
-	panose-1:2 11 5 2 2 2 2 2 2 4;}
-@font-face
-	{font-family:Tahoma;
-	panose-1:2 11 6 4 3 5 4 4 2 4;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin:0cm;
-	font-size:10.0pt;
-	font-family:"Century Gothic",sans-serif;}
-h1
-	{mso-style-link:"Título 1 Car";
-	margin-top:12.0pt;
-	margin-right:0cm;
-	margin-bottom:10.0pt;
-	margin-left:0cm;
-	text-align:center;
-	line-height:150%;
-	font-size:14.0pt;
-	font-family:"Century Gothic",sans-serif;}
-h1.CxSpFirst
-	{mso-style-link:"Título 1 Car";
-	margin-top:12.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	text-align:center;
-	line-height:150%;
-	font-size:14.0pt;
-	font-family:"Century Gothic",sans-serif;}
-h1.CxSpMiddle
-	{mso-style-link:"Título 1 Car";
-	margin:0cm;
-	text-align:center;
-	line-height:150%;
-	font-size:14.0pt;
-	font-family:"Century Gothic",sans-serif;}
-h1.CxSpLast
-	{mso-style-link:"Título 1 Car";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:10.0pt;
-	margin-left:0cm;
-	text-align:center;
-	line-height:150%;
-	font-size:14.0pt;
-	font-family:"Century Gothic",sans-serif;}
-h2
-	{mso-style-link:"Título 2 Car";
-	margin-top:48.0pt;
-	margin-right:0cm;
-	margin-bottom:10.0pt;
-	margin-left:0cm;
-	text-align:center;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Century Gothic",sans-serif;}
-h2.CxSpFirst
-	{mso-style-link:"Título 2 Car";
-	margin-top:48.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	text-align:center;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Century Gothic",sans-serif;}
-h2.CxSpMiddle
-	{mso-style-link:"Título 2 Car";
-	margin:0cm;
-	text-align:center;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Century Gothic",sans-serif;}
-h2.CxSpLast
-	{mso-style-link:"Título 2 Car";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:10.0pt;
-	margin-left:0cm;
-	text-align:center;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Century Gothic",sans-serif;}
-h3
-	{mso-style-link:"Título 3 Car";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:10.0pt;
-	margin-left:0cm;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:11.0pt;
-	font-family:"Century Gothic",sans-serif;
-	font-weight:normal;
-	font-style:italic;}
-h3.CxSpFirst
-	{mso-style-link:"Título 3 Car";
-	margin:0cm;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:11.0pt;
-	font-family:"Century Gothic",sans-serif;
-	font-weight:normal;
-	font-style:italic;}
-h3.CxSpMiddle
-	{mso-style-link:"Título 3 Car";
-	margin:0cm;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:11.0pt;
-	font-family:"Century Gothic",sans-serif;
-	font-weight:normal;
-	font-style:italic;}
-h3.CxSpLast
-	{mso-style-link:"Título 3 Car";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:10.0pt;
-	margin-left:0cm;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:11.0pt;
-	font-family:"Century Gothic",sans-serif;
-	font-weight:normal;
-	font-style:italic;}
-p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
-	{margin:0cm;
-	font-size:9.0pt;
-	font-family:"Century Gothic",sans-serif;}
-span.MsoSubtleEmphasis
-	{color:windowtext;
-	font-style:italic;}
-span.Ttulo1Car
-	{mso-style-name:"Título 1 Car";
-	mso-style-link:"Título 1";
-	font-family:"Century Gothic",sans-serif;
-	font-weight:bold;}
-span.Ttulo2Car
-	{mso-style-name:"Título 2 Car";
-	mso-style-link:"Título 2";
-	font-family:"Century Gothic",sans-serif;
-	font-weight:bold;}
-span.Ttulo3Car
-	{mso-style-name:"Título 3 Car";
-	mso-style-link:"Título 3";
-	font-family:"Century Gothic",sans-serif;
-	font-style:italic;}
-p.Normalcentrado, li.Normalcentrado, div.Normalcentrado
-	{mso-style-name:"Normal\: centrado";
-	margin:0cm;
-	text-align:center;
-	font-size:11.0pt;
-	font-family:"Century Gothic",sans-serif;}
-p.Normalcentradoconespacio, li.Normalcentradoconespacio, div.Normalcentradoconespacio
-	{mso-style-name:"Normal\: centrado con espacio";
-	margin-top:16.0pt;
-	margin-right:0cm;
-	margin-bottom:6.0pt;
-	margin-left:0cm;
-	text-align:center;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Century Gothic",sans-serif;}
-p.NormalcentradoconespacioCxSpFirst, li.NormalcentradoconespacioCxSpFirst, div.NormalcentradoconespacioCxSpFirst
-	{mso-style-name:"Normal\: centrado con espacioCxSpFirst";
-	margin-top:16.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	text-align:center;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Century Gothic",sans-serif;}
-p.NormalcentradoconespacioCxSpMiddle, li.NormalcentradoconespacioCxSpMiddle, div.NormalcentradoconespacioCxSpMiddle
-	{mso-style-name:"Normal\: centrado con espacioCxSpMiddle";
-	margin:0cm;
-	text-align:center;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Century Gothic",sans-serif;}
-p.NormalcentradoconespacioCxSpLast, li.NormalcentradoconespacioCxSpLast, div.NormalcentradoconespacioCxSpLast
-	{mso-style-name:"Normal\: centrado con espacioCxSpLast";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:6.0pt;
-	margin-left:0cm;
-	text-align:center;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Century Gothic",sans-serif;}
-p.Normalpequeo, li.Normalpequeo, div.Normalpequeo
-	{mso-style-name:"Normal\: pequeño";
-	margin:0cm;
-	font-size:8.0pt;
-	font-family:"Century Gothic",sans-serif;}
-p.Normalgrande, li.Normalgrande, div.Normalgrande
-	{mso-style-name:"Normal\: grande";
-	mso-style-link:"Normal\: carácter grande";
-	margin:0cm;
-	text-align:center;
-	font-size:18.0pt;
-	font-family:"Century Gothic",sans-serif;
-	font-weight:bold;}
-span.Normalcarctergrande
-	{mso-style-name:"Normal\: carácter grande";
-	mso-style-link:"Normal\: grande";
-	font-family:"Century Gothic",sans-serif;
-	font-weight:bold;}
-.MsoChpDefault
-	{font-size:10.0pt;
-	font-family:"Century Gothic",sans-serif;}
- /* Page Definitions */
- @page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:18.0pt 18.0pt 18.0pt 18.0pt;}
-div.WordSection1
-	{page:WordSection1;}
--->
-</style>
-
+  <!-- Site made with Mobirise Website Builder v5.5.8, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.5.8, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo5.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Home</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+  
 </head>
+<body>
+  
+  <section class="header1 cid-seWqrBOvKJ mbr-parallax-background" id="header1-1">
 
-<body lang=ES-MX style='word-wrap:break-word'>
+    
 
-<div class=WordSection1>
+    <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(20, 157, 204);">
+    </div>
 
-<p class=MsoNormal><span lang=ES><img width=732 height=237
-src="Prueba%20de%20contenido%20para%20github_archivos/image001.png"
-alt="elemento decorativo"></span><span lang=ES> </span></p>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
+                    mexaverso.mx</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">
+                    Metaverso Mexicano</h3>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
+                    (Un montón de sombrerudos en el ciber-espacio)</p>
+                <div class="mbr-section-btn align-center"><a class="btn btn-md btn-secondary display-4" href="https://mobiri.se">
+                        <span class="mbr-iconfont mbri-file"></span>Roadmap</a></div>
+            </div>
+        </div>
+    </div>
 
-<h1><span lang=ES>Tres componentes de un proyecto de feria de ciencias
-competitivo:</span></h1>
+</section>
 
-<table class=Cuadrculadetablaclara1 border=0 cellspacing=0 cellpadding=0
- width="100%" style='width:100.0%;border-collapse:collapse'>
- <tr>
-  <td width="7%" style='width:7.3%;padding:0cm 0cm 0cm 0cm'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt'>&nbsp;</span></p>
-  </td>
-  <td width="20%" style='width:20.04%;padding:0cm 0cm 0cm 0cm'>
-  <p class=Normalcentrado><span lang=ES>Diario científico</span></p>
-  </td>
-  <td width="9%" style='width:9.38%;padding:0cm 0cm 0cm 0cm'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt'><img width=33
-  height=33 id="Gráfico 4"
-  src="Prueba%20de%20contenido%20para%20github_archivos/image002.png"
-  alt="Libro cerrado"></span></p>
-  </td>
-  <td width="19%" style='width:19.54%;padding:0cm 0cm 0cm 0cm'>
-  <p class=Normalcentrado><span lang=ES>Informe de investigación</span></p>
-  </td>
-  <td width="6%" style='width:6.24%;padding:0cm 0cm 0cm 0cm'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt'><img width=31
-  height=31 id="Gráfico 5"
-  src="Prueba%20de%20contenido%20para%20github_archivos/image003.png"
-  alt=Lápiz></span></p>
-  </td>
-  <td width="21%" style='width:21.88%;padding:0cm 0cm 0cm 0cm'>
-  <p class=Normalcentrado><span lang=ES>Tablón de presentación</span></p>
-  </td>
-  <td width="5%" style='width:5.46%;padding:0cm 0cm 0cm 0cm'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt'><img width=34
-  height=34 id="Gráfico 6"
-  src="Prueba%20de%20contenido%20para%20github_archivos/image004.png"
-  alt=Tijeras></span></p>
-  </td>
-  <td width="10%" style='width:10.16%;padding:0cm 0cm 0cm 0cm'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt'>&nbsp;</span></p>
-  </td>
- </tr>
-</table>
+<section class="progress-bars1 cid-sUf4PAH8lm" id="progress-bars1-2">
+    
+    
 
-<p class=Normalcentradoconespacio><strong><span lang=ES style='font-family:
-"Century Gothic",sans-serif;color:white'><span style='color:windowtext'>Fecha
-de vencimiento (todos los componentes):</span></span></strong><span lang=ES> </span><span
-lang=ES>&lt;escriba la fecha de vencimiento aquí&gt;</span></p>
+    
 
-<p class=MsoNoSpacing><span lang=ES><img width=747 height=75 id="Diagrama 7"
-src="Prueba%20de%20contenido%20para%20github_archivos/image005.png"
-alt="elemento decorativo"></span></p>
+    <div class="container">
+        <h2 class="mbr-section-title pb-2 align-center mbr-fonts-style display-2">
+            Roadmap</h2>
 
-<table class=Tablndeferiadeciencias border=1 cellspacing=0 cellpadding=0
- summary="Tablón de feria de ciencias" width="100%" style='width:100.0%;
- border-collapse:collapse;border:none'>
- <tr>
-  <td width=30 style='width:22.4pt;border:solid #4BACC6 1.0pt;background:#4BACC6;
-  padding:7.2pt 5.75pt 7.2pt 5.75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span lang=ES
-  style='font-size:9.0pt'>&nbsp;</span></b></p>
-  </td>
-  <td width=140 style='width:104.95pt;border:solid #4BACC6 1.0pt;border-left:
-  none;background:#4BACC6;padding:7.2pt 5.75pt 7.2pt 5.75pt'>
-  <p class=MsoNormal><b><span lang=ES style='font-size:9.0pt;color:black'>Completado
-  por</span></b></p>
-  </td>
-  <td width=575 style='width:431.45pt;border:solid #4BACC6 1.0pt;border-left:
-  none;background:#4BACC6;padding:7.2pt 5.75pt 7.2pt 5.75pt'>
-  <p class=MsoNormal><span class=MsoSubtleEmphasis><b><span lang=ES
-  style='font-size:9.0pt;color:black'>Cada palabra en NEGRITA representa una
-  página en el Informe de investigación y el Tablón.</span></b></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalgrande><span lang=ES style='color:black;font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=140 style='width:104.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalpequeo><span lang=ES style='color:black'>&lt;insertar fecha 6
-  semanas antes de la fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:431.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt;color:black'>Prepare
-  un Diario científico donde conservará notas sobre todas las ideas, acciones y
-  datos durante la totalidad del proyecto.</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalgrande><span lang=ES style='font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=140 style='width:104.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalpequeo><span lang=ES>&lt;insertar fechas 7 semanas antes de la
-  fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:431.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt'>Haga una lluvia de
-  ideas sobre el tema que le interesa (¿ciencias de la vida, ciencias de la
-  tierra?) ¿Hay una pregunta o un problema que le interese? Investigue a través
-  de Bing, compañeros, adultos o la biblioteca.</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalgrande><span lang=ES style='color:black;font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=140 style='width:104.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalpequeo><span lang=ES style='color:black'>&lt;insertar fechas 7
-  semanas antes de la fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:431.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt;color:black'>Determine
-  el </span><strong><span lang=ES style='font-size:9.0pt;font-family:"Century Gothic",sans-serif;
-  color:black'>PROBLEMA</span></strong><span lang=ES style='font-size:9.0pt;
-  color:black'> que desea resolver. ¿Cuál es la finalidad del experimento? Obtenga
-  la aprobación del </span><strong><span lang=ES style='font-size:9.0pt;
-  font-family:"Century Gothic",sans-serif;color:black'>PROBLEMA</span></strong><span
-  lang=ES style='font-size:9.0pt;color:black'> por parte de su profesor:</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalgrande><span lang=ES style='font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=140 style='width:104.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalpequeo><span lang=ES>&lt;insertar fecha 6 semanas antes de la
-  fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:431.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt'>Redacte una <strong><span
-  style='font-family:"Century Gothic",sans-serif'>HIPÓTESIS</span></strong> que
-  aclare lo que piensa que pasará cuando realice el experimento. Esta es su
-  afirmación &quot;Si ___, entonces___ sucede porque ___&quot;.</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalgrande><span lang=ES style='color:black;font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=140 style='width:104.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalpequeo><span lang=ES style='color:black'>&lt;escriba una fecha
-  5 semanas antes de la fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:431.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt;color:black'>Diseñe
-  su experimento de forma detallada. Cree una <strong><span style='font-family:
-  "Century Gothic",sans-serif'>LISTA DE MATERIALES</span></strong>.</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalgrande><span lang=ES style='font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=140 style='width:104.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalpequeo><span lang=ES>&lt;escriba una fecha 5 semanas antes de
-  la fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:431.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt'>Realice el
-  experimento. Escriba y compruebe las instrucciones paso a paso. Estos serán
-  los <strong><span style='font-family:"Century Gothic",sans-serif'>PROCEDIMIENTOS</span></strong>.
-  (Ajuste los intervalos aquí si el proyecto lleva más tiempo).</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalgrande><span lang=ES style='color:black;font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=140 style='width:104.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalpequeo><span lang=ES style='color:black'>&lt;escriba una fecha
-  5 semanas antes de la fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:431.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt;color:black'>Cuando
-  esté llevando a cabo el experimento, tome nota de todos los datos
-  cuantitativos posibles en el Diario científico (mediciones, intervalos,
-  peso). Estos datos demostrarán o desmentirán su hipótesis.</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalgrande><span lang=ES style='font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=140 style='width:104.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalpequeo><span lang=ES>&lt;escriba una fecha 4 semanas antes de
-  la fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:431.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt'>Cuando complete el
-  experimento, organice los datos y elija un gráfico que ilustre los cambios
-  que tuvieron lugar. Estos son los <strong><span style='font-family:"Century Gothic",sans-serif'>RESULTADOS</span></strong>.</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalgrande><span lang=ES style='color:black;font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=140 style='width:104.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalpequeo><span lang=ES style='color:black'>&lt;escriba una fecha
-  3 semanas antes de la fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:431.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt;color:black'>Analice
-  los resultados y redacte un <strong><span style='font-family:"Century Gothic",sans-serif'>ANÁLISIS
-  DE DATOS</span></strong> claro.</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalgrande><span lang=ES style='font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=140 style='width:104.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=Normalpequeo><span lang=ES>&lt;escriba una fecha 3 semanas antes de
-  la fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:431.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt'>Escriba la <strong><span
-  style='font-family:"Century Gothic",sans-serif'>CONCLUSIÓN</span></strong>,
-  que es su interpretación de los datos (¿por qué ocurrieron los resultados?).</span></p>
-  </td>
- </tr>
-</table>
+        <h3 class="mbr-section-subtitle pb-5 mbr-fonts-style display-5">2022</h3>
 
-<span lang=ES style='font-size:9.0pt;font-family:"Century Gothic",sans-serif'><br
-clear=all style='page-break-before:always'>
-</span>
-
-<p class=MsoNoSpacing><span lang=ES>&nbsp;</span></p>
-
-<p class=MsoNoSpacing><span lang=ES><img width=749 height=66 id="Diagrama 9"
-src="Prueba%20de%20contenido%20para%20github_archivos/image006.png"
-alt="elemento decorativo"></span></p>
-
-<table class=Tablndeferiadeciencias border=1 cellspacing=0 cellpadding=0
- summary="Tablón de feria de ciencias" width="100%" style='width:100.0%;
- border-collapse:collapse;border:none'>
- <tr>
-  <td width=30 style='width:22.4pt;border:solid #4BACC6 1.0pt;background:#4BACC6;
-  padding:7.2pt 5.75pt 7.2pt 5.75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=ES
-  style='font-size:9.0pt'>&nbsp;</span></p>
-  </td>
-  <td width=141 style='width:105.45pt;border:solid #4BACC6 1.0pt;border-left:
-  none;background:#4BACC6;padding:7.2pt 5.75pt 7.2pt 5.75pt'>
-  <p class=MsoNormal><b><span lang=ES style='font-size:9.0pt;color:black'>Completado
-  por</span></b></p>
-  </td>
-  <td width=575 style='width:430.95pt;border:solid #4BACC6 1.0pt;border-left:
-  none;background:#4BACC6;padding:7.2pt 5.75pt 7.2pt 5.75pt'>
-  <p class=MsoNormal><b><span lang=ES style='font-size:9.0pt'>&nbsp;</span></b></p>
-  </td>
- </tr>
- <tr style='height:21.6pt'>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=Normalgrande><span lang=ES style='color:black;font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=141 style='width:105.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=Normalpequeo><span lang=ES style='color:black'>&lt;escriba una fecha
-  3 semanas antes de la fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:430.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt;color:black'>Escriba,
-  redacte y diseñe páginas adicionales para el informe<strong><span
-  style='font-family:"Century Gothic",sans-serif'>: PÁGINA DE TÍTULO, RESUMEN,
-  AGRADECIMIENTOS, TABLAN DE CONTENIDO, RESUMEN DE LA INVESTIGACIÓN, GLOSARIO y
-  FUENTES CITADAS</span></strong>.</span></p>
-  </td>
- </tr>
- <tr style='height:21.6pt'>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=Normalgrande><span lang=ES style='font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=141 style='width:105.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=Normalpequeo><span lang=ES>&lt;escriba una fecha 2 semanas antes de
-  la fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:430.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt'>Escriba todas las
-  páginas del informe. Las ha escrito desde el principio. Preste especial
-  atención a los parámetros establecidos por su profesor o el director de la feria
-  de ciencia.</span></p>
-  </td>
- </tr>
- <tr style='height:21.6pt'>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=Normalgrande><span lang=ES style='color:black;font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=141 style='width:105.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=Normalpequeo><span lang=ES style='color:black'>&lt;escriba una fecha
-  2 semanas antes de la fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:430.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt;color:black'>Revise y
-  edite todas las páginas escritas y los gráficos.</span></p>
-  </td>
- </tr>
- <tr style='height:21.6pt'>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=Normalgrande><span lang=ES style='font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=141 style='width:105.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=Normalpequeo><span lang=ES>&lt;escriba una fecha 2 semanas antes de
-  la fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:430.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt'>Imprima las páginas
-  del informe. Recopile. Únalo todo.</span></p>
-  </td>
- </tr>
- <tr style='height:21.6pt'>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=Normalgrande><span lang=ES style='color:black;font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=141 style='width:105.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=Normalpequeo><span lang=ES style='color:black'>&lt;escriba una fecha
-  10 semanas antes de la fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:430.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt;color:black'>Imprima
-  el <strong><span style='font-family:"Century Gothic",sans-serif'>PROBLEMA, la
-  HIPÓTESIS, la LISTA DE MATERIALES, el PROCEDIMIENTO, los GRÁFICOS DE DATOS,
-  los ANÁLISIS DE DATOS y la CONCLUSIÓN</span></strong> en un tamaño de texto
-  más grande que se adapte al tablón de presentación.</span></p>
-  </td>
- </tr>
- <tr style='height:21.6pt'>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=Normalgrande><span lang=ES style='font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=141 style='width:105.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=Normalpequeo><span lang=ES>&lt;insertar fechas 7 semanas antes de la
-  fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:430.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt'>Una los componentes
-  en el Tablón de presentación según los parámetros establecidos por su
-  profesor o el director de la feria de ciencia. Agregue fotografías y el
-  título. Sea ordenado</span></p>
-  </td>
- </tr>
- <tr style='height:21.6pt'>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=Normalgrande><span lang=ES style='color:black;font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=141 style='width:105.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=Normalpequeo><span lang=ES style='color:black'>&lt;escriba una fecha
-  5 semanas antes de la fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:430.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  background:#DAEEF3;padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt;color:black'>Revise
-  el diario científico y compruebe que está completo.</span></p>
-  </td>
- </tr>
- <tr style='height:21.6pt'>
-  <td width=30 style='width:22.4pt;border:solid #92CDDC 1.0pt;border-top:none;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=Normalgrande><span lang=ES style='font-weight:normal'>&#9633;</span></p>
-  </td>
-  <td width=141 style='width:105.45pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=Normalpequeo><span lang=ES>&lt;escriba la fecha de vencimiento&gt;</span></p>
-  </td>
-  <td width=575 style='width:430.95pt;border-top:none;border-left:none;
-  border-bottom:solid #92CDDC 1.0pt;border-right:solid #92CDDC 1.0pt;
-  padding:3.6pt 5.75pt 3.6pt 5.75pt;height:21.6pt'>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt'>Ha terminado los
-  tres componentes de su proyecto de feria de ciencias competitivo.</span></p>
-  <p class=MsoNormal><span lang=ES style='font-size:9.0pt'>Diario científico</span><span
-  lang=ES style='font-size:9.0pt'> </span><span lang=ES style='font-size:9.0pt'><img
-  width=18 height=19 id="Gráfico 8"
-  src="Prueba%20de%20contenido%20para%20github_archivos/image007.png"
-  alt="Libro cerrado"></span><span lang=ES style='font-size:9.0pt'>          </span><span
-  lang=ES style='font-size:9.0pt'>Informe de investigación</span><span lang=ES
-  style='font-size:9.0pt'> </span><span lang=ES style='font-size:9.0pt'><img
-  width=18 height=18 id="Gráfico 11"
-  src="Prueba%20de%20contenido%20para%20github_archivos/image008.png"
-  alt=Lápiz></span><span lang=ES style='font-size:9.0pt'>        </span><span
-  lang=ES style='font-size:9.0pt'>Tablón de presentación</span><span lang=ES
-  style='font-size:9.0pt'> </span><span lang=ES style='font-size:9.0pt'><img
-  width=22 height=22 id="Gráfico 18"
-  src="Prueba%20de%20contenido%20para%20github_archivos/image009.png"
-  alt=Tijeras></span></p>
-  </td>
- </tr>
-</table>
-
-<h2><span lang=ES>Reconocimiento de los padres para</span><span lang=ES> </span><span
-lang=ES>&lt;escriba el nombre del alumno&gt;</span></h2>
-
-<h3><span lang=ES>Yo</span><span lang=ES>, </span><span lang=ES>______________________</span><span
-lang=ES> </span><span lang=ES>(padre o madre), soy consciente de que mi hijo/a
-está participando en un proyecto importante y estoy comprometido/a para
-ayudarle con consejos y ánimo. He anotado la fecha de vencimiento, planeado las
-fechas y el área del tema, y le ayudaré teniendo todos los tres componentes en</span><span
-lang=ES> </span><span lang=ES>&lt;ubicación para entrega&gt;</span><span
-lang=ES> </span><span lang=ES>antes del</span><span lang=ES> </span><span
-lang=ES>&lt;escribir fecha de vencimiento&gt;</span><span lang=ES>. </span><span
-lang=ES>(Una vez firmada, copie esta página para el padre o madre y el
-profesor).</span></h3>
-
-</div>
-
+        <div class="progress_elements">
+            <div class="progress1 pb-5">
+                <div class="title-wrap">
+                    <div class="progressbar-title mbr-fonts-style display-7">
+                        <p>Abordaje de colaboradores-founders</p>
+                    </div>
+                    <div class="progress_value mbr-fonts-style display-7">
+                        <div class="progressbar-number"></div>
+                        <span>%</span>
+                    </div>
+                </div>
+                <progress class="progress progress-primary" max="100" value="70">
+                </progress>
+            </div>
+            
+            <div class="progress2 pb-5">
+                <div class="title-wrap">
+                    <div class="progressbar-title mbr-fonts-style display-7">
+                        <p>Diseño del Concepto (Tecnología, Arte, Actividades Sociales, Economía)<br></p>
+                    </div>
+                <div class="progress_value mbr-fonts-style display-7">
+                    <div class="progressbar-number"></div>
+                    <span>%</span>
+                </div>
+                </div>
+                <progress class="progress progress-primary" max="100" value="80">
+                </progress>
+            </div>
+            
+            <div class="progress3 pb-5">
+                <div class="title-wrap">
+                    <div class="progressbar-title mbr-fonts-style display-7">
+                        <p>Codificación de primera estructura</p>
+                    </div>
+                    <div class="progress_value mbr-fonts-style display-7">
+                        <div class="progressbar-number"></div>
+                        <span>%</span>
+                    </div>
+                </div>
+                <progress class="progress progress-primary" max="100" value="90">
+                </progress>
+            </div>
+            
+            <div class="progress4">
+                <div class="title-wrap">
+                    <div class="progressbar-title mbr-fonts-style display-7">
+                        <p>
+                            Lanzamiento con primeras actividades sociales</p>
+                    </div>
+                <div class="progress_value mbr-fonts-style display-7">
+                    <div class="progressbar-number"></div>
+                    <span>%</span>
+                </div>
+                </div>
+                <progress class="progress progress-primary" max="100" value="100">
+                </progress>
+            </div>
+        </div>
+    </div>
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/i" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Built with Mobirise - <a href="https://mobirise.site/m" style="color:#aaa;">Learn more</a></p></section><script src="assets/popper/popper.min.js"></script>  <script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  
+  
 </body>
-
 </html>
